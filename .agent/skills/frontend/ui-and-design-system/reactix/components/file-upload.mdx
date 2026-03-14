@@ -1,0 +1,62 @@
+---
+title: File Upload
+description: A drag-and-drop file upload component with animated progress, file type validation and preview support
+lastModified: 2025-01-31
+icon: Upload
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="file-upload"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Document Picker",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/file-upload.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler expo-document-picker
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/file-upload```
+  <ComponentSource name="file-upload" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="file-upload" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/file-upload.ts" name="FileUploadProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Document Picker",
+  ]}
+/>

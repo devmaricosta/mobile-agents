@@ -1,0 +1,66 @@
+---
+title: Smooth Tab
+description: A horizontally scrollable tab bar with a smooth animated indicator that slides between tabs using spring physics
+lastModified: 2025-01-31
+icon: LayoutTemplate
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="smooth-tab"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/smooth-tab.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler expo-haptics
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/smooth-tab```
+  <ComponentSource name="smooth-tab" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="smooth-tab" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/smooth-tab.ts" name="SmoothTabProps" />
+
+### SmoothTabItemProps
+
+<AutoTypeTable path="react-native-types/smooth-tab.ts" name="SmoothTabItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+  ]}
+/>

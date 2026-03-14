@@ -1,0 +1,64 @@
+---
+title: Card List
+description: A vertically scrollable list of animated cards with staggered entrance animations and swipe-to-dismiss support
+lastModified: 2025-01-31
+icon: List
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="card-list"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/card-list.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/card-list```
+  <ComponentSource name="card-list" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="card-list" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/card-list.ts" name="CardListProps" />
+
+### CardListItemProps
+
+<AutoTypeTable path="react-native-types/card-list.ts" name="CardListItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+  ]}
+/>

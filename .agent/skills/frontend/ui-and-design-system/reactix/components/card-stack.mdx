@@ -1,0 +1,66 @@
+---
+title: Card Stack
+description: A swipeable card stack with Tinder-like gesture navigation, scale depth and animated discard effects
+lastModified: 2025-01-31
+icon: Layers
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="card-stack"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/card-stack.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler expo-haptics
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/organisms/card-stack```
+  <ComponentSource name="card-stack" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="card-stack" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/card-stack.ts" name="CardStackProps" />
+
+### CardStackItemProps
+
+<AutoTypeTable path="react-native-types/card-stack.ts" name="CardStackItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+  ]}
+/>

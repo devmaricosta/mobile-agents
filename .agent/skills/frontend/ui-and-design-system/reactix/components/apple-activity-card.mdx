@@ -1,0 +1,60 @@
+---
+title: Apple Activity Card
+description: An animated activity ring card inspired by Apple Fitness with progress animations and ring fill effects
+lastModified: 2025-01-31
+icon: Activity
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="apple-activity-card"
+  comment={[
+    "React Native Reanimated",
+    "React Native SVG",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/apple-activity-card.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-svg
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/apple-activity-card```
+  <ComponentSource name="apple-activity-card" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="apple-activity-card" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/apple-activity-card.ts" name="AppleActivityCardProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native SVG",
+  ]}
+/>

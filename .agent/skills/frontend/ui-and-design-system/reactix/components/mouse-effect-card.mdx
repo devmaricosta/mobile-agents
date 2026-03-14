@@ -1,0 +1,60 @@
+---
+title: Mouse Effect Card
+description: A tilt-responsive card that reacts to touch position with a 3D perspective effect and dynamic light reflection
+lastModified: 2025-01-31
+icon: Pointer
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="mouse-effect-card"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/mouse-effect-card.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/mouse-effect-card```
+  <ComponentSource name="mouse-effect-card" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="mouse-effect-card" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/mouse-effect-card.ts" name="MouseEffectCardProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+  ]}
+/>

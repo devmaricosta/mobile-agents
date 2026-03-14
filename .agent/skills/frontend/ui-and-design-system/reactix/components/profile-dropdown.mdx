@@ -1,0 +1,68 @@
+---
+title: Profile Dropdown
+description: An animated user profile dropdown with avatar, user info and action items, featuring smooth open/close transitions
+lastModified: 2025-01-31
+icon: UserCircle
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="profile-dropdown"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+    "Expo Blur",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/profile-dropdown.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler expo-haptics expo-blur
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/organisms/profile-dropdown```
+  <ComponentSource name="profile-dropdown" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="profile-dropdown" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/profile-dropdown.ts" name="ProfileDropdownProps" />
+
+### ProfileDropdownItemProps
+
+<AutoTypeTable path="react-native-types/profile-dropdown.ts" name="ProfileDropdownItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+    "Expo Blur",
+  ]}
+/>

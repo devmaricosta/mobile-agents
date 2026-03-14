@@ -1,0 +1,58 @@
+---
+title: Loader
+description: A collection of animated loading indicators including dots, bars and spinner variants with configurable size and color
+lastModified: 2025-01-31
+icon: LoaderCircle
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="loader"
+  comment={[
+    "React Native Reanimated",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/loader.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/base/loader```
+  <ComponentSource name="loader" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="loader" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/loader.ts" name="LoaderProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+  ]}
+/>

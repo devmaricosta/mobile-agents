@@ -1,0 +1,60 @@
+---
+title: Card
+description: A versatile card component with press scale animation, optional gradient overlay, and flexible content slots
+lastModified: 2025-01-31
+icon: CreditCard
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="card"
+  comment={[
+    "React Native Reanimated",
+    "Expo Linear Gradient",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/card.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated expo-linear-gradient
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/base/card```
+  <ComponentSource name="card" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="card" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/card.ts" name="CardProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "Expo Linear Gradient",
+  ]}
+/>

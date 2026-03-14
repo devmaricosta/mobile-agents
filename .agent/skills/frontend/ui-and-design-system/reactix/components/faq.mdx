@@ -1,0 +1,62 @@
+---
+title: FAQ
+description: An animated FAQ list with smooth expand/collapse transitions and customizable question and answer layouts
+lastModified: 2025-01-31
+icon: CircleHelp
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="faq"
+  comment={[
+    "React Native Reanimated",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/faq.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/faq```
+  <ComponentSource name="faq" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="faq" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/faq.ts" name="FAQProps" />
+
+### FAQItemProps
+
+<AutoTypeTable path="react-native-types/faq.ts" name="FAQItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+  ]}
+/>

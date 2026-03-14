@@ -1,0 +1,60 @@
+---
+title: Beams Background
+description: Animated light beam background effect with radial gradient beams emanating from configurable origin points
+lastModified: 2025-01-31
+icon: Flashlight
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="beams-background"
+  comment={[
+    "React Native Reanimated",
+    "Expo Linear Gradient",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/beams-background.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated expo-linear-gradient
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/base/beams-background```
+  <ComponentSource name="beams-background" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="beams-background" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/beams-background.ts" name="BeamsBackgroundProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "Expo Linear Gradient",
+  ]}
+/>

@@ -1,0 +1,60 @@
+---
+title: Shape Hero
+description: An animated hero section with morphing geometric shapes rendered using Skia for smooth GPU-accelerated transitions
+lastModified: 2025-01-31
+icon: Shapes
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="shape-hero"
+  comment={[
+    "React Native Reanimated",
+    "@shopify/react-native-skia",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/shape-hero.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated @shopify/react-native-skia
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/organisms/shape-hero```
+  <ComponentSource name="shape-hero" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="shape-hero" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/shape-hero.ts" name="ShapeHeroProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "@shopify/react-native-skia",
+  ]}
+/>

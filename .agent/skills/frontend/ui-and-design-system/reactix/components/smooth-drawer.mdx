@@ -1,0 +1,66 @@
+---
+title: Smooth Drawer
+description: A side drawer with fluid gesture-driven open and close animations, backdrop blur and configurable snap points
+lastModified: 2025-01-31
+icon: PanelLeft
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="smooth-drawer"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Blur",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/smooth-drawer.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler expo-blur
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/organisms/smooth-drawer```
+  <ComponentSource name="smooth-drawer" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="smooth-drawer" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/smooth-drawer.ts" name="SmoothDrawerProps" />
+
+### SmoothDrawerMethods
+
+<AutoTypeTable path="react-native-types/smooth-drawer.ts" name="SmoothDrawerMethods" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Blur",
+  ]}
+/>

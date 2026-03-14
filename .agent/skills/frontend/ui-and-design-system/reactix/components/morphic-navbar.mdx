@@ -1,0 +1,66 @@
+---
+title: Morphic Navbar
+description: A fluid morphing navigation bar with animated active indicator that smoothly follows the selected tab
+lastModified: 2025-01-31
+icon: NavigationIcon
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="morphic-navbar"
+  comment={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/morphic-navbar.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-gesture-handler expo-haptics
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/organisms/morphic-navbar```
+  <ComponentSource name="morphic-navbar" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="morphic-navbar" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/morphic-navbar.ts" name="MorphicNavbarProps" />
+
+### MorphicNavbarItemProps
+
+<AutoTypeTable path="react-native-types/morphic-navbar.ts" name="MorphicNavbarItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native Gesture Handler",
+    "Expo Haptics",
+  ]}
+/>

@@ -1,0 +1,60 @@
+---
+title: Background Paths
+description: Animated SVG path background with flowing line patterns for decorative screen backgrounds
+lastModified: 2025-01-31
+icon: Spline
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="background-paths"
+  comment={[
+    "React Native Reanimated",
+    "React Native SVG",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/background-paths.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated react-native-svg
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/base/background-paths```
+  <ComponentSource name="background-paths" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="background-paths" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/background-paths.ts" name="BackgroundPathsProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+    "React Native SVG",
+  ]}
+/>

@@ -1,0 +1,62 @@
+---
+title: Bento Grid
+description: A flexible Bento-style grid layout with animated reveal effects for showcasing features or content cards
+lastModified: 2025-01-31
+icon: LayoutGrid
+full: true
+---
+
+import DynamicText from "@/components/kokonutui/dynamic-text";
+import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
+
+<PreviewClient
+  link="bento-grid"
+  comment={[
+    "React Native Reanimated",
+  ]}
+/>
+
+<div className="items-center ml-0">
+  <video
+    src="/static/media/bento-grid.mp4"
+    autoPlay
+    muted
+    loop
+    className="rounded-xl"
+  />
+</div>
+
+### Manual
+
+<Steps>
+  <Step>
+     Install the following dependencies:
+     ```package-install
+     react-native-reanimated
+     ```
+  </Step>
+
+<Step>
+  Copy and paste the following code into your project.
+  ```component/molecules/bento-grid```
+  <ComponentSource name="bento-grid" />
+</Step>
+</Steps>
+
+### Usage
+
+<ExampleComponentSource name="bento-grid" />
+
+### Props
+
+<AutoTypeTable path="react-native-types/bento-grid.ts" name="BentoGridProps" />
+
+### BentoGridItemProps
+
+<AutoTypeTable path="react-native-types/bento-grid.ts" name="BentoGridItemProps" />
+
+<PreviewComment
+  comments={[
+    "React Native Reanimated",
+  ]}
+/>
